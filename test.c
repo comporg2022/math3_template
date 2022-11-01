@@ -6,10 +6,11 @@
 
  long main()
 {
-  long i = 2;
-  long j = 44;
+  long x = 2;
+  long a = 44;
+  long b = 5;
   long k;
-  k = math_func(i, j);
+  k = math_func(x, a, b);
   printf ("%ld\n", k);
   return k;
 }
